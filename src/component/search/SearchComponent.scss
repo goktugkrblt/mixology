@@ -30,3 +30,39 @@
         }
     }
 }
+
+
+.cocktail-results {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  .cocktail-card {
+    border: 1px solid #e6ebf4;
+    border-radius: 16px;
+    padding: 2.5rem;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 0 1px 0 rgba(189,192,207,0.06),0 10px 16px -1px rgba(189,192,207,0.2);
+  
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: 16px;
+    }
+  
+    h2 {
+      font-size: 1.2rem;
+      margin-top: 20px;
+    }
+  
+    p {
+      font-size: 0.9rem;
+      color: #333;
+      margin-top: 10px;
+      margin-bottom: 20px;
+    }
+  }
