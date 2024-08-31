@@ -50,7 +50,7 @@ const SearchComponent = () => {
               </div>
             ))
           ) : (
-            searchTerm && !loading && <p>No cocktails found</p>
+            searchTerm && !loading && <p className='notfound'>No cocktails found</p>
           )}
         </div>
       </div>
