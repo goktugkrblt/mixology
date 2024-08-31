@@ -1,6 +1,5 @@
 import './App.scss'
 import React from 'react';
-import CanvasComponent from './components/canvas/CanvasComponent'
 
 function App() {
   return (
@@ -11,7 +10,6 @@ function App() {
                       <div className='container-content-logo-text'>MIXOLOGY</div>
                 </div>
             </div>
-            <CanvasComponent />
        </div>
     </>
   )
