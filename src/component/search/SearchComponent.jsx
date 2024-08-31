@@ -39,7 +39,7 @@ const SearchComponent = () => {
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
         />
-        {loading && <p>Loading...</p>}
+        {loading && <p className='loading'>Loading...</p>}
         <div className='cocktail-results'>
           {cocktails.length > 0 ? (
             cocktails.map((cocktail) => (
