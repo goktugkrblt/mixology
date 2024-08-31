@@ -1,0 +1,32 @@
+.main-content{
+    margin-top: 50px;
+    &-head{
+      font-size: 32px;
+      text-align: center;
+      font-weight: 500;
+      color: #222328;
+    }
+    &-subhead{
+        font-size: 18px;
+        color: #666e75;
+        font-weight: 200;
+        text-align: center;
+        margin-top: 8px;
+    }
+    &-search{
+        max-width: 420px;
+        height: 48px;
+        font-size: 14px;
+        padding: 8px 16px;
+        width: 100%;
+        border: 1px solid #e6ebf4;
+        display: block;
+        margin: 0 auto;
+        margin-top: 40px;
+        background-color: #fff;
+        box-shadow: 0 5px 25px -5px rgba(30,16,84,.1);
+        &::placeholder{
+            color: #c1c3c4;
+        }
+    }
+}

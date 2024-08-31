@@ -1,16 +1,13 @@
 import './App.scss'
 import React from 'react';
+import NavbarComponent from './component/navbar/NavbarComponent';
+import SearchComponent from './component/search/SearchComponent';
 
 function App() {
   return (
     <>
-       <div className='container'>
-            <div className='container-content'>
-                <div className='container-content-logo'>
-                      <div className='container-content-logo-text'>MIXOLOGY</div>
-                </div>
-            </div>
-       </div>
+      <NavbarComponent/>
+      <SearchComponent/>
     </>
   )
 }

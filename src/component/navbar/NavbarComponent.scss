@@ -1,0 +1,15 @@
+.navbar{
+    padding: 1rem 3rem;
+    border-bottom: 1px solid #e6ebf4;
+    background-color: #fff;
+    &__container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        &__logo{
+            font-size: 24px;
+            letter-spacing: 1;
+            color: #000;
+        }
+    }
+}
