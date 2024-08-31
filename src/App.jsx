@@ -1,13 +1,18 @@
-import { useState } from 'react'
 import './App.scss'
+import React from 'react';
+import CanvasComponent from './components/canvas/CanvasComponent'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      
-       
+       <div className='container'>
+            <div className='container-content'>
+                <div className='container-content-logo'>
+                      <div className='container-content-logo-text'>MIXOLOGY</div>
+                </div>
+            </div>
+            <CanvasComponent />
+       </div>
     </>
   )
 }
